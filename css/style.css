@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+}
+header{
+
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+header .logo {
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-left: 47px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+header .logo a{
+    font-size: 22px;
+    display: inline-block;
+}
+header .logo a i {
+    font-size:20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 8px 10px;
+
+}
+header .logo p{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-right:48px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+.wallp{
+    position: relative;
+    z-index: 1;
+    background:url('../images/about_01.png') no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+header h1{
+    font-family: "Open Sans", sans-serif; font-style:normal;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 265px;
+}
+header h1 span{
+    font-family: "Open Sans", sans-serif; font-style: italic;
+}
+.info p {
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 165px;
+    max-width: 765px;
+    color: #747a7f;
+    padding-bottom: 160px;
+}
+.container{
+    display: flex;
+    background-color: #f9f9f9;
+}
+.container h2{
+    font-size: 45px;
+    color: #505d68;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.manu{
+    display:block;
+    flex-wrap: wrap;
+
+}
+.manu p{
+    padding-top: 95px;
+    max-width: 210px;
+    text-align: left;
+    color: #505d68;
+    font-size: 18px;
+}
+.manu ul{
+    padding-left: 115px;
+    padding-top: 105px;
+}
+
+.manu li{
+    list-style-type: none;
+    color: #505d68;
+    font-size: 18px;
+}
+li:before {
+    content: "-";
+}
+.into{
+    display: flex;
+    padding-left: 55px;
+}
+
+
+
+
+.container6{
+    background-color: #eeeeee;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.container6 p{
+    font-size: 16px;
+    padding: 40px 200px 35px 230px;
+    color: #6a747d;
+}
